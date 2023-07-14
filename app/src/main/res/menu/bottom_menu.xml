@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/baseline_language_24"
+        android:title="@string/countries" />
+
+    <item
+        android:id="@+id/staticsFragment"
+        android:icon="@drawable/statistics_svgrepo_com"
+        android:title="@string/statics" />
+
+    <item
+        android:id="@+id/quizFragment"
+        android:icon="@drawable/game"
+        android:title="@string/quiz" />
+
+    <item
+        android:id="@+id/moreFragment"
+        android:icon="@drawable/more_app_svgrepo_com"
+        android:title="@string/more" />
+
+</menu>

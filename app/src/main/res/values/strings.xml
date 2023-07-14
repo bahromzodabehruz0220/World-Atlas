@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WorldAtlas</string>
+    <string name="countries">countries</string>
+    <string name="statics">statics</string>
+    <string name="quiz">quiz</string>
+    <string name="more">more\n</string>
 </resources>
