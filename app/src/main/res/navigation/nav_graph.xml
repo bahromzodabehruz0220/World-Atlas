@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grapht"
+    app:startDestination="@id/countriesFragment">
+
+
+    <fragment
+        android:id="@+id/countriesFragment"
+        android:name="tj.behruz.worldatlas.ui.countries.CountriesFragment"
+        android:label="CountriesFragment"
+        tools:layout="@layout/countries_fragment" />
+    <fragment
+        android:id="@+id/staticsFragment"
+        android:name="tj.behruz.worldatlas.ui.statics.StaticsFragment"
+        android:label="StaticsFragment"
+        tools:layout="@layout/statics_fragment" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="tj.behruz.worldatlas.ui.quiz.QuizFragment"
+        android:label="QuizFragment"
+        tools:layout="@layout/quiz_fragment" />
+</navigation>
