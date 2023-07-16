@@ -12,7 +12,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#F3E5F5</color>
-    <color name="iconColor">#01579b</color>
-
-
+    <color name="iconColor">#ffffff</color>
 </resources>
