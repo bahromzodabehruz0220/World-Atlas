@@ -4,4 +4,5 @@
     <string name="statics">statics</string>
     <string name="quiz">quiz</string>
     <string name="more">more\n</string>
+    <string name="search_by_country">Search by country</string>
 </resources>
