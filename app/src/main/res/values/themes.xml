@@ -84,5 +84,10 @@
         <item name="android:textSize">14sp</item>
     </style>
 
+    <style name="Widget.BottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/ubuntu</item>
+    </style>
+
 
 </resources>

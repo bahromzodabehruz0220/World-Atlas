@@ -47,6 +47,7 @@
             android:background="@android:color/transparent"
             android:hint="@string/search_by_country"
             android:inputType="text"
+            android:fontFamily="@font/ubuntu"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/filterIV"
             app:layout_constraintStart_toEndOf="@+id/searchIcon"
