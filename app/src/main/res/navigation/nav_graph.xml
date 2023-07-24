@@ -10,7 +10,11 @@
         android:id="@+id/countriesFragment"
         android:name="tj.behruz.worldatlas.ui.countries.CountriesFragment"
         android:label="CountriesFragment"
-        tools:layout="@layout/countries_fragment" />
+        tools:layout="@layout/countries_fragment">
+        <action
+            android:id="@+id/action_countriesFragment_to_countryDetailFragment"
+            app:destination="@id/countryDetailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/staticsFragment"
         android:name="tj.behruz.worldatlas.ui.statics.StaticsFragment"
@@ -21,4 +25,14 @@
         android:name="tj.behruz.worldatlas.ui.quiz.QuizFragment"
         android:label="QuizFragment"
         tools:layout="@layout/quiz_fragment" />
+    <fragment
+        android:id="@+id/countryDetailFragment"
+        android:name="tj.behruz.worldatlas.ui.countries.CountryDetailFragment"
+        android:label="CountryDetailFragment"
+        tools:layout="@layout/country_detail_fragment" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="tj.behruz.worldatlas.ui.more.MoreFragment"
+        android:label="MoreFragment"
+        tools:layout="@layout/more_fragment" />
 </navigation>

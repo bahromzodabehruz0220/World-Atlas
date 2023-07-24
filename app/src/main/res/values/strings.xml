@@ -36,6 +36,8 @@
     <string name="wonders">Wonders</string>
     <string name="mountains">Mountains</string>
     <string name="continents">Continents</string>
+    <string name="about_app">About App</string>
+    <string name="seas">Seas</string>
 
 
 </resources>

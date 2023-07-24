@@ -4,5 +4,8 @@
         <item>@font/roboto_slab</item>
         <item>@font/roboto_slab_bold</item>
         <item>@font/roboto_slab_light</item>
+        <item>@font/ubuntu</item>
+        <item>@font/ubuntu_bold</item>
+        <item>@font/ubuntu_light</item>
     </array>
 </resources>

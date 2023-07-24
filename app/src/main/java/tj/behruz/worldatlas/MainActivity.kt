@@ -2,6 +2,8 @@ package tj.behruz.worldatlas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -21,5 +23,10 @@ class MainActivity : AppCompatActivity() {
         // Find reference to bottom navigation view
         // Hook your navigation controller to bottom navigation view
         binding.bottomNavigationView.setupWithNavController(navController)
+        navController.addOnDestinationChangedListener { controller, destination, arguments ->
+            if (destination.id == R.id.countryDetailFragment) {
+                binding.bottomNavigationView.visibility = View.GONE
+            } else binding.bottomNavigationView.visibility = View.VISIBLE
+        }
     }
 }
