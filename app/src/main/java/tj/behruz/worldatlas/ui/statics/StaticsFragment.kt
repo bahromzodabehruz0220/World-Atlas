@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import dagger.hilt.android.AndroidEntryPoint
 import tj.behruz.worldatlas.databinding.StaticsFragmentBinding
+@AndroidEntryPoint
 
 class StaticsFragment : Fragment() {
 

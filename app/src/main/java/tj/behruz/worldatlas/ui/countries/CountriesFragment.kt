@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import dagger.hilt.android.AndroidEntryPoint
 import tj.behruz.worldatlas.R
 import tj.behruz.worldatlas.databinding.CountriesFragmentBinding
+@AndroidEntryPoint
 
 class CountriesFragment : Fragment() {
 
